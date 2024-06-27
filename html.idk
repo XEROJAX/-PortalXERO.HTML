@@ -53,7 +53,7 @@ transition: transform 0.3s ease;
 position: absolute;
 top: 30px; 
 left: 100px;
-transform: translateX(-5#0%);
+transform: translateX(-50%);
 }
 nav ul ‹
 display: flex;
