@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    
+<nav>
+  <ul>
+    <li><a href="#Start"><img src="https://www.pinclipart.com/picdir/big/532-5328945_menu-clip-art.png" id="MENU" alt="Red X" width="60" height="60"></a></li>
+    <li><a href="#Socials+Channels"><img src="https://5percentclub.co.uk/wp-content/uploads/2020/01/white-person-png-free-white-personpng-transparent-images-3970-png-in-white-people-1000_758-min.png" id="SOCIAL" width="90" height="70"></a></li>
+    <li><a href="#AboutJaxChan...?"><img src="https://i.postimg.cc/fy1QtXp1/Web-Photo-Editor-fotor-bg-remover-202406241415.png" id="ABOUT" width="200" height="200"></a></li>
+    <li><a href="#Production!"><img src="https://i.postimg.cc/qR3ZgYcX/R.png" id="MUSIC" width="50" height="60"></a></li>
+  </ul>
+</nav>
+    
+<style>
+        #MUSIC:hover {
+            animation: musicHoverAnimation 1s forwards;
+        }
+@keyframes musicHoverAnimation { 
+    0% {
+        transform: scale(1) translateX(-30%);}
+    50% {
+        transform: scale(.5) rotate(180deg) translateX(-30%);}
+    100% {
+        transform: scale(1.5) rotate(-360deg) translateX(-30%);}
+}
+@media (max-width: 600px) {
+    #MUSIC {
+        top: 100px;
+    }
+}
+        #SOCIAL {
+            position: absolute;
+            top: 30px;
+            right: 2%; 
+            transform: translateX(-50%);
+        }
+        #ABOUT {
+            position: absolute;
+            top: -40px; 
+            transform: translateX(-50%);
+        }
+        #MUSIC {
+            padding: 0 0 20px 0;
+            margin: 15px 0 0 0;
+            position: absolute;
+            top: 130px;
+            left: 50%;
+            transform: translateX(-50%); 
+            transition: transform 0.3s ease;
+        }
+        #MENU {
+            position: absolute;
+            top: 30px; 
+            left: 100px; 
+            transform: translateX(-50%);
+        }
+        nav ul {
+            display: flex;
+            padding: 0;
+            margin: 0 10px;
+        }
+        nav li {
+            list-style: none;
+        }
+        p {
+            border-radius: 10px 10px 10px 10px;
+            background-color: black;
+            width: 500px;
+        }
+        h4 {
+            background-color: black;
+        }
+        #XEROLINK {
+            width: 100px;
+            height: 20px;
+            animation: move 4s ease;
+            margin: 40px 0px 100px 0px;
+            transform: scale(1.5);
+        }
+@keyframes move {
+    0% {transform: translateY(1000px);}
+}
+        
+        button:hover {
+            scale: 4;
+            background-color: #F5C869;
+        }
+        #PROFILE {
+            animation: slideDown ease 4s;
+            border: solid white 3px;
+            border-radius: 200px;
+            margin: 30px 0px 0px 0px;
+        }
+@keyframes slideDown {
+    0% {transform: translateY(-1000px);}
+}
+        
+        h1 {
+            margin: 30px 0px 0px 0px;
+            background-color: black;
+        }
+        body {
+            margin: 200px 0px 0px 0px;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('https://media2.giphy.com/media/3ohs4ucXR6NYRxmpTa/giphy.gif');
+            background-size: cover;
+            color: white;
+            font-family: Helvetica;
+            text-align: center;
+            animation: fadeIn ease 3s;
+        }
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+    </style>
+    <img src="https://i.postimg.cc/xdQTts7f/IMG-2924.jpg" id="PROFILE" alt="Jax Chan's profile picture" width="300" height="300">
+    <h1>Hello, I'm Jax Chan.</h1>
+    <h4>I am a 22-year-old student at LAPC, and aspire to be a programmer of sorts.</h4>
+<p>I have recently decided to switch my major to Computer Science, 
+    and look forward to the path it will take me. Currently working on multiple 
+    personal projects, I intend on eventually creating something quite big. <br>
+    I also produce music, and am on the way to obtaining my Pro Tools certification to further my skills in production.
+    <h3>Click below for more about me!</h3>
+<button id="XEROLINK">
+    <strong>
+        <a href="https://instabio.cc/xerolink">XEROLINK</a>
+    </strong>
+</button>
+</body>
+</html>
