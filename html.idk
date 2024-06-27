@@ -1,4 +1,4 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 ‹html lang="en">
 <body>
 ‹nav>
@@ -80,6 +80,7 @@ transform: scale (1.5);
 ｝
 @keyframes move {
 0% {transform: translateY (1000px) ;}
+}
 button:hover {
 scale: 4;
 background-color: #F5C869;
@@ -92,6 +93,7 @@ margin: 30px 0px 0px 0px;
 ｝
 @keyframes slideDown {
 0% {transform: translateY (-1000px) ; }
+}
 h1 {
 margin: 30px 0px 0px 0px;
 background-color: black;
